@@ -36,12 +36,12 @@
     <style>
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
       .sans { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
-      .label { fill: #D1FAE5; opacity: 0.92; font-weight: 800; letter-spacing: 0.18em; font-size: 14px; }
-      .h1 { fill: #D1FAE5; font-weight: 900; font-size: 64px; }
-      .h2 { fill: #D1FAE5; font-weight: 850; font-size: 30px; }
-      .h3 { fill: #D1FAE5; font-weight: 850; font-size: 18px; }
-      .body { fill: #D1FAE5; opacity: 0.90; font-weight: 600; font-size: 16px; }
-      .small { fill: #D1FAE5; opacity: 0.86; font-weight: 560; font-size: 14px; }
+      .label { fill: #D1FAE5; opacity: 0.92; font-weight: 800; letter-spacing: 0.18em; font-size: 16px; }
+      .h1 { fill: #D1FAE5; font-weight: 900; font-size: 72px; }
+      .h2 { fill: #D1FAE5; font-weight: 850; font-size: 36px; }
+      .h3 { fill: #D1FAE5; font-weight: 850; font-size: 22px; }
+      .body { fill: #D1FAE5; opacity: 0.90; font-weight: 600; font-size: 18px; }
+      .small { fill: #D1FAE5; opacity: 0.86; font-weight: 560; font-size: 16px; }
       .chip { fill: #0B1120; opacity: 0.75; }
     </style>
   </defs>
@@ -132,7 +132,7 @@
       <circle cx="1040" cy="1260" r="6" fill="#22D3EE"/>
     </g>
 
-    <text x="168" y="1336" class="mono" fill="#D1FAE5" opacity="0.88" font-size="13" font-weight="800" letter-spacing="0.12em">THESIS</text>
+    <text x="168" y="1336" class="mono" fill="#D1FAE5" opacity="0.88" font-size="15" font-weight="800" letter-spacing="0.12em">THESIS</text>
     <text x="168" y="1366" class="sans body">I build systems that turn messy real-world behaviour into useful data, models, and tools.</text>
   </g>
 
@@ -148,10 +148,10 @@
     <rect x="168" y="1740" width="620" height="260" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity="0.25"/>
     <rect x="860" y="1740" width="520" height="260" rx="22" fill="url(#panel)" stroke="#F59E0B" stroke-opacity="0.20"/>
 
-    <text x="210" y="1792" class="mono" fill="#22D3EE" font-size="16" font-weight="900" letter-spacing="0.14em">HUMANS</text>
-    <text x="900" y="1792" class="mono" fill="#F59E0B" font-size="16" font-weight="900" letter-spacing="0.14em">MACHINES</text>
+    <text x="210" y="1792" class="mono" fill="#22D3EE" font-size="18" font-weight="900" letter-spacing="0.14em">HUMANS</text>
+    <text x="900" y="1792" class="mono" fill="#F59E0B" font-size="18" font-weight="900" letter-spacing="0.14em">MACHINES</text>
 
-    <g class="sans" fill="#D1FAE5" opacity="0.9" font-size="15" font-weight="650">
+    <g class="sans" fill="#D1FAE5" opacity="0.9" font-size="16" font-weight="650">
       <text x="210" y="1838">Context</text>
       <text x="210" y="1872">Meaning</text>
       <text x="210" y="1906">Judgement</text>
@@ -194,15 +194,15 @@
     <rect x="595" y="2480" width="410" height="300" rx="22" fill="url(#panel)" stroke="#F59E0B" stroke-opacity="0.18"/>
     <rect x="1022" y="2480" width="410" height="300" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity="0.22"/>
 
-    <text x="200" y="2550" class="mono" fill="#22D3EE" font-size="18" font-weight="950" letter-spacing="0.14em">OBSERVE</text>
-    <text x="627" y="2550" class="mono" fill="#F59E0B" font-size="18" font-weight="950" letter-spacing="0.14em">MODEL</text>
-    <text x="1054" y="2550" class="mono" fill="#22D3EE" font-size="18" font-weight="950" letter-spacing="0.14em">BUILD</text>
+    <text x="200" y="2550" class="mono" fill="#22D3EE" font-size="20" font-weight="950" letter-spacing="0.14em">OBSERVE</text>
+    <text x="627" y="2550" class="mono" fill="#F59E0B" font-size="20" font-weight="950" letter-spacing="0.14em">MODEL</text>
+    <text x="1054" y="2550" class="mono" fill="#22D3EE" font-size="20" font-weight="950" letter-spacing="0.14em">BUILD</text>
 
     <text x="200" y="2590" class="sans body">Turn behaviour into data</text>
     <text x="627" y="2590" class="sans body">Turn data into structure</text>
     <text x="1054" y="2590" class="sans body">Turn structure into tools</text>
 
-    <g class="sans" fill="#D1FAE5" opacity="0.88" font-size="14" font-weight="620">
+    <g class="sans" fill="#D1FAE5" opacity="0.88" font-size="16" font-weight="620">
       <text x="200" y="2640">Experiments • movement • perception</text>
       <text x="200" y="2670">Field data • instrumentation • signals</text>
 
@@ -301,7 +301,7 @@
       <circle cx="1320" cy="4580" r="8" fill="#F59E0B"/>
     </g>
 
-    <g class="sans" fill="#D1FAE5" opacity="0.92" font-size="14" font-weight="700">
+    <g class="sans" fill="#D1FAE5" opacity="0.92" font-size="16" font-weight="700">
       <text x="168" y="4620">Reproducible enough to rerun</text>
       <text x="520" y="4620">Visual enough to explain</text>
       <text x="860" y="4620">Modular enough to grow</text>
@@ -311,8 +311,8 @@
 
   <!-- 08 / CLOSING -->
   <g id="footer">
-    <text x="120" y="4750" class="mono label">08 / CLOSING</text>
-    <text x="120" y="4788" class="sans" fill="#D1FAE5" opacity="0.92" font-size="18" font-weight="750">
+    <text x="120" y="4726" class="mono label">08 / CLOSING</text>
+    <text x="120" y="4764" class="sans" fill="#D1FAE5" opacity="0.92" font-size="20" font-weight="750">
       Building systems that help people observe, model, and understand decisions in the wild.
     </text>
 
