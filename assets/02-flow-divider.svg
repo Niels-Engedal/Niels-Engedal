@@ -1,0 +1,67 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated data flow divider</title>
+  <desc id="desc">A dark cyan and emerald divider with flowing amber and cyan data points.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="0.45" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="60" x2="1080" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#047857" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.75"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" rx="26" fill="url(#bg)" opacity="0.98"/>
+  <g opacity="0.12" stroke="#D1FAE5" stroke-width="1">
+    <path d="M0 24 C130 8 190 46 320 28 S560 15 700 32 S950 56 1200 18"/>
+    <path d="M0 52 C120 38 220 78 350 55 S560 42 700 58 S970 84 1200 44"/>
+    <path d="M0 82 C150 66 220 108 350 84 S620 74 760 88 S1000 110 1200 72"/>
+  </g>
+  <g opacity="0.14" stroke="#22D3EE" stroke-width="1">
+    <path d="M740 0 V120"/>
+    <path d="M820 0 V120"/>
+    <path d="M900 0 V120"/>
+    <path d="M980 0 V120"/>
+    <path d="M1060 0 V120"/>
+    <path d="M1140 0 V120"/>
+    <path d="M700 24 H1200"/>
+    <path d="M700 60 H1200"/>
+    <path d="M700 96 H1200"/>
+  </g>
+
+  <path id="flowPath" d="M90 70 C230 16 330 104 470 55 C620 2 730 98 865 50 C970 12 1030 86 1120 48" stroke="url(#line)" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M90 70 C230 16 330 104 470 55 C620 2 730 98 865 50 C970 12 1030 86 1120 48" stroke="#F59E0B" stroke-width="2" stroke-dasharray="10 14" stroke-linecap="round" opacity="0.45">
+    <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <g stroke="#22D3EE" stroke-width="1.4" opacity="0.55">
+    <path d="M780 70 L865 50 L950 78 L1030 44 L1120 48"/>
+    <path d="M865 50 L910 22 L1030 44"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="90" cy="70" r="5" fill="#22D3EE"/>
+    <circle cx="470" cy="55" r="5" fill="#22D3EE"/>
+    <circle cx="865" cy="50" r="6" fill="#F59E0B"/>
+    <circle cx="1030" cy="44" r="5" fill="#22D3EE"/>
+    <circle cx="1120" cy="48" r="6" fill="#F59E0B"/>
+    <circle r="5" fill="#F59E0B">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M90 70 C230 16 330 104 470 55 C620 2 730 98 865 50 C970 12 1030 86 1120 48"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#22D3EE">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M1120 48 C1030 86 970 12 865 50 C730 98 620 2 470 55 C330 104 230 16 90 70"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

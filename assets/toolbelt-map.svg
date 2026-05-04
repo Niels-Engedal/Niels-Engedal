@@ -1,0 +1,71 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Toolbelt map legend</title>
+  <desc id="desc">A map-legend style panel grouping tools by purpose: analysis and modelling; web systems; data and infrastructure; design and communication.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="0.52" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1120" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0.86"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="26" fill="url(#bg)" opacity="0.98"/>
+
+  <g opacity="0.14" stroke="#22D3EE" stroke-width="1">
+    <path d="M740 0 V320"/>
+    <path d="M820 0 V320"/>
+    <path d="M900 0 V320"/>
+    <path d="M980 0 V320"/>
+    <path d="M1060 0 V320"/>
+    <path d="M1140 0 V320"/>
+    <path d="M700 64 H1200"/>
+    <path d="M700 148 H1200"/>
+    <path d="M700 232 H1200"/>
+    <path d="M700 300 H1200"/>
+  </g>
+
+  <text x="72" y="56" fill="#D1FAE5" font-size="14" font-weight="700" letter-spacing="0.18em" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">TOOLBELT / MAP LEGEND</text>
+
+  <rect x="60" y="84" width="540" height="92" rx="18" fill="url(#card)" stroke="#047857" stroke-opacity="0.35"/>
+  <rect x="600" y="84" width="540" height="92" rx="18" fill="url(#card)" stroke="#0891B2" stroke-opacity="0.35"/>
+  <rect x="60" y="186" width="540" height="92" rx="18" fill="url(#card)" stroke="#F59E0B" stroke-opacity="0.22"/>
+  <rect x="600" y="186" width="540" height="92" rx="18" fill="url(#card)" stroke="#047857" stroke-opacity="0.25"/>
+
+  <g filter="url(#glow)">
+    <circle cx="98" cy="124" r="6" fill="#22D3EE"/>
+    <circle cx="638" cy="124" r="6" fill="#F59E0B"/>
+    <circle cx="98" cy="226" r="6" fill="#F59E0B"/>
+    <circle cx="638" cy="226" r="6" fill="#22D3EE"/>
+  </g>
+
+  <text x="122" y="120" fill="#D1FAE5" font-size="16" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Analysis &amp; modelling</text>
+  <text x="122" y="144" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Python • R • pandas • GeoPandas • PyTorch</text>
+
+  <text x="662" y="120" fill="#D1FAE5" font-size="16" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Web systems</text>
+  <text x="662" y="144" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">TypeScript • React • Next.js • Tailwind</text>
+
+  <text x="122" y="222" fill="#D1FAE5" font-size="16" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Data &amp; infrastructure</text>
+  <text x="122" y="246" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">PostgreSQL • Docker • Prisma</text>
+
+  <text x="662" y="222" fill="#D1FAE5" font-size="16" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Design &amp; communication</text>
+  <text x="662" y="246" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Markdown • Mermaid • Photoshop</text>
+
+  <g opacity="0.22" stroke="#D1FAE5" stroke-width="1">
+    <path d="M104 84 C210 62 280 108 380 84 S530 80 600 96"/>
+    <path d="M640 278 C770 252 860 304 980 270 S1110 256 1140 270"/>
+  </g>
+</svg>

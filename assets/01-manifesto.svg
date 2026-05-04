@@ -1,0 +1,84 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Manifesto</title>
+  <desc id="desc">A field-note style manifesto panel: Hi, I’m Niels. I build human-centered data systems for messy real-world behaviour. The work is building bridges where humans keep judgement and context while machines handle scale and computation.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="0.52" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="60" y1="64" x2="1140" y2="288" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0.86"/>
+    </linearGradient>
+
+    <linearGradient id="signal" x1="140" y1="92" x2="1060" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#047857" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="26" fill="url(#bg)" opacity="0.98"/>
+
+  <g opacity="0.14" stroke="#22D3EE" stroke-width="1">
+    <path d="M740 0 V320"/>
+    <path d="M820 0 V320"/>
+    <path d="M900 0 V320"/>
+    <path d="M980 0 V320"/>
+    <path d="M1060 0 V320"/>
+    <path d="M1140 0 V320"/>
+    <path d="M700 72 H1200"/>
+    <path d="M700 156 H1200"/>
+    <path d="M700 240 H1200"/>
+    <path d="M700 308 H1200"/>
+  </g>
+
+  <g opacity="0.10" stroke="#D1FAE5" stroke-width="1">
+    <path d="M0 86 C160 62 260 106 380 82 S610 64 740 88 S1000 130 1200 70"/>
+    <path d="M0 154 C150 132 290 176 420 154 S640 132 780 162 S1030 202 1200 146"/>
+    <path d="M0 228 C180 204 300 260 430 230 S700 206 840 238 S1060 274 1200 220"/>
+  </g>
+
+  <rect x="60" y="64" width="1080" height="224" rx="20" fill="url(#panel)" stroke="#047857" stroke-opacity="0.35"/>
+
+  <text x="92" y="96" fill="#D1FAE5" font-size="14" font-weight="700" letter-spacing="0.18em" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    FIELD NOTE / INTRO
+  </text>
+
+  <path d="M140 118 H1060" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <g filter="url(#glow)">
+    <circle cx="240" cy="118" r="5" fill="#22D3EE"/>
+    <circle cx="600" cy="118" r="6" fill="#F59E0B"/>
+    <circle cx="960" cy="118" r="5" fill="#22D3EE"/>
+  </g>
+
+  <text x="92" y="158" fill="#D1FAE5" font-size="30" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    Hi, I’m Niels.
+  </text>
+
+  <text x="92" y="190" fill="#D1FAE5" opacity="0.94" font-size="16" font-weight="650" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    I build human-centered data systems for messy real-world behaviour.
+  </text>
+
+  <text x="92" y="222" fill="#D1FAE5" opacity="0.90" font-size="15" font-weight="550" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    I’m interested in the moment where the real world becomes structured enough to reason about.
+  </text>
+
+  <text x="92" y="250" fill="#D1FAE5" opacity="0.86" font-size="14" font-weight="520" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    Not to replace humans with automation — but to build bridges where judgement and context stay human,
+  </text>
+  <text x="92" y="270" fill="#D1FAE5" opacity="0.86" font-size="14" font-weight="520" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">
+    while machines take care of scale, memory, repetition, and computation.
+  </text>
+</svg>

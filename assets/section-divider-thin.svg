@@ -1,0 +1,32 @@
+<svg width="1200" height="44" viewBox="0 0 1200 44" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Section divider</title>
+  <desc id="desc">A thin map-like divider with a cyan-to-amber signal line and subtle grid.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="0.55" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="120" y1="22" x2="1080" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#047857" stop-opacity="0.25"/>
+      <stop offset="0.55" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="44" rx="14" fill="url(#bg)" opacity="0.92"/>
+
+  <g opacity="0.14" stroke="#D1FAE5" stroke-width="1">
+    <path d="M0 11 H1200"/>
+    <path d="M0 33 H1200"/>
+  </g>
+
+  <path d="M120 22 H1080" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <g>
+    <circle cx="360" cy="22" r="4" fill="#22D3EE" opacity="0.9"/>
+    <circle cx="600" cy="22" r="5" fill="#F59E0B" opacity="0.9"/>
+    <circle cx="840" cy="22" r="4" fill="#22D3EE" opacity="0.9"/>
+  </g>
+</svg>

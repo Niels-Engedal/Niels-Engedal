@@ -1,0 +1,70 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Terrain I like working in</title>
+  <desc id="desc">Four map-like cards describing: Experimental systems, Spatial intelligence, Applied perception, Human-facing tools.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="0.52" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1120" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0.86"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="26" fill="url(#bg)" opacity="0.98"/>
+
+  <g opacity="0.12" stroke="#22D3EE" stroke-width="1">
+    <path d="M760 0 V300"/>
+    <path d="M860 0 V300"/>
+    <path d="M960 0 V300"/>
+    <path d="M1060 0 V300"/>
+    <path d="M1160 0 V300"/>
+    <path d="M720 70 H1200"/>
+    <path d="M720 150 H1200"/>
+    <path d="M720 230 H1200"/>
+  </g>
+
+  <text x="72" y="56" fill="#D1FAE5" font-size="14" font-weight="700" letter-spacing="0.18em" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">TERRAIN</text>
+  <text x="72" y="86" fill="#D1FAE5" font-size="26" font-weight="800" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">I like working where behaviour meets systems</text>
+
+  <rect x="60" y="116" width="540" height="78" rx="18" fill="url(#card)" stroke="#047857" stroke-opacity="0.35"/>
+  <rect x="600" y="116" width="540" height="78" rx="18" fill="url(#card)" stroke="#0891B2" stroke-opacity="0.35"/>
+  <rect x="60" y="204" width="540" height="78" rx="18" fill="url(#card)" stroke="#F59E0B" stroke-opacity="0.22"/>
+  <rect x="600" y="204" width="540" height="78" rx="18" fill="url(#card)" stroke="#047857" stroke-opacity="0.25"/>
+
+  <g filter="url(#glow)">
+    <circle cx="98" cy="155" r="6" fill="#22D3EE"/>
+    <circle cx="638" cy="155" r="6" fill="#F59E0B"/>
+    <circle cx="98" cy="243" r="6" fill="#F59E0B"/>
+    <circle cx="638" cy="243" r="6" fill="#22D3EE"/>
+  </g>
+
+  <text x="122" y="150" fill="#D1FAE5" font-size="18" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Experimental systems</text>
+  <text x="122" y="172" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Browser tasks • cognitive testing • interactive research workflows</text>
+
+  <text x="662" y="150" fill="#D1FAE5" font-size="18" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Spatial intelligence</text>
+  <text x="662" y="172" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Movement • reachability • tactical behaviour • geospatial reasoning</text>
+
+  <text x="122" y="238" fill="#D1FAE5" font-size="18" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Applied perception</text>
+  <text x="122" y="260" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Computer vision • detection • practical constraints in the wild</text>
+
+  <text x="662" y="238" fill="#D1FAE5" font-size="18" font-weight="850" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Human-facing tools</text>
+  <text x="662" y="260" fill="#D1FAE5" opacity="0.9" font-size="14" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">Dashboards • visual explanations • full-stack systems people use</text>
+
+  <g opacity="0.16" stroke="#D1FAE5" stroke-width="1">
+    <path d="M106 116 C190 92 240 132 320 110 S470 96 600 122"/>
+    <path d="M640 282 C760 252 840 304 940 268 S1100 254 1140 266"/>
+  </g>
+</svg>
