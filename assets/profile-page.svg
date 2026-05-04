@@ -103,45 +103,6 @@
     <rect x="860" y="0" width="740" height="2925" fill="url(#grid)"/>
   </g>
 
-  <!-- Soft topographic contours -->
-  <g opacity="0.10" stroke="#D1FAE5" stroke-width="1">
-    <path d="M0 360 C220 280 390 440 610 350 S980 260 1200 400 S1420 500 1600 320"/>
-    <path d="M0 650 C240 540 420 720 650 630 S980 530 1200 690 S1420 820 1600 580"/>
-    <path d="M0 1030 C230 930 460 1150 700 1040 S980 890 1200 1070 S1420 1250 1600 970"/>
-    <path d="M0 1440 C250 1340 480 1560 740 1445 S1040 1260 1240 1480 S1460 1700 1600 1360"/>
-    <path d="M0 1870 C260 1750 520 2030 780 1910 S1080 1670 1280 1930 S1460 2190 1600 1750"/>
-    <path d="M0 2330 C280 2210 560 2570 820 2370 S1120 2110 1320 2410 S1480 2770 1600 2270"/>
-    <path d="M0 2860 C300 2720 600 3160 880 2880 S1180 2560 1360 2940 S1500 3380 1600 2760"/>
-  </g>
-
-  <!-- Animated signal spine -->
-  <g id="signal-spine" opacity="1">
-    <path
-      d="M1400 190 C1328 340 1480 500 1400 625 C1320 820 1480 990 1400 1095 C1320 1280 1480 1510 1400 1715 C1320 1940 1480 2150 1400 2255 C1320 2480 1475 2700 1400 2870"
-      stroke="url(#signal)"
-      stroke-width="4"
-      stroke-linecap="round"
-      fill="none"/>
-
-    <path
-      d="M1400 190 C1328 340 1480 500 1400 625 C1320 820 1480 990 1400 1095 C1320 1280 1480 1510 1400 1715 C1320 1940 1480 2150 1400 2255 C1320 2480 1475 2700 1400 2870"
-      stroke="#F59E0B"
-      stroke-width="2"
-      stroke-dasharray="14 18"
-      stroke-linecap="round"
-      opacity="0.35">
-      <animate attributeName="stroke-dashoffset" from="0" to="-128" dur="7s" repeatCount="indefinite"/>
-    </path>
-
-    <g filter="url(#glow)">
-      <circle cx="1400" cy="190" r="8" fill="#22D3EE"/>
-      <circle cx="1400" cy="625" r="8" fill="#F59E0B"/>
-      <circle cx="1400" cy="1095" r="9" fill="#22D3EE"/>
-      <circle cx="1400" cy="1715" r="9" fill="#F59E0B"/>
-      <circle cx="1400" cy="2255" r="9" fill="#22D3EE"/>
-      <circle cx="1400" cy="2870" r="9" fill="#F59E0B"/>
-    </g>
-  </g>
 
   <!-- HERO -->
   <g id="hero">
@@ -181,11 +142,6 @@
       <circle cx="720" cy="485" r="7" fill="#22D3EE"/>
       <circle cx="1200" cy="485" r="8" fill="#F59E0B"/>
     </g>
-
-    <g opacity="0.35">
-      <path d="M160 520 C300 446 420 474 560 439 C680 406 760 356 900 384 C1040 412 1140 484 1280 446 C1380 420 1450 434 1480 454 L1480 575 L160 575 Z" fill="#064E3B"/>
-      <path d="M160 550 C320 490 470 540 610 492 C760 444 860 396 980 424 C1120 454 1230 520 1360 490 C1420 478 1465 482 1480 486 L1480 575 L160 575 Z" fill="#047857" opacity="0.65"/>
-    </g>
   </g>
 
   <!-- HUMAN × MACHINE -->
@@ -209,13 +165,6 @@
       <text x="900" y="987">Repetition • Computation</text>
     </g>
 
-    <path d="M230 1025 H1340" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
-
-    <g filter="url(#glow)">
-      <circle cx="410" cy="1025" r="6" fill="#22D3EE"/>
-      <circle cx="784" cy="1025" r="7" fill="#F59E0B"/>
-      <circle cx="1140" cy="1025" r="6" fill="#22D3EE"/>
-    </g>
   </g>
 
   <!-- OBSERVE → MODEL → BUILD -->
@@ -223,15 +172,6 @@
     <rect x="120" y="1095" width="1360" height="580" rx="28" fill="url(#panel)" stroke="#0891B2" stroke-opacity="0.32"/>
 
     <text x="168" y="1205" class="sans h2">What I do</text>
-
-    <path d="M260 1270 H1260" stroke="url(#signal)" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
-
-    <g filter="url(#glow)">
-      <circle cx="260" cy="1270" r="7" fill="#22D3EE"/>
-      <circle cx="760" cy="1270" r="8" fill="#F59E0B"/>
-      <circle cx="1260" cy="1270" r="7" fill="#22D3EE"/>
-    </g>
-
     <rect x="168" y="1333" width="410" height="292" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity="0.22"/>
     <rect x="595" y="1333" width="410" height="292" rx="22" fill="url(#panel)" stroke="#F59E0B" stroke-opacity="0.18"/>
     <rect x="1022" y="1333" width="410" height="292" rx="22" fill="url(#panel)" stroke="#22D3EE" stroke-opacity="0.22"/>
